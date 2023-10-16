@@ -45,6 +45,26 @@ int main(){
 }//end of main
 
 //23
+#include <stdio.h>
+
+int main() {
+    double pounds, kilograms;
+
+    // Input the weight in pounds
+    printf("Enter weight in pounds: ");
+    scanf("%lf", &pounds);
+
+    // Convert pounds to kilograms
+    kilograms = pounds * 0.453592;
+
+    // Display the result
+    printf("%.2lf pounds is equal to %.2lf kilograms.\n", pounds, kilograms);
+
+    return 0;
+}
+//24
+
+
 
 
 
